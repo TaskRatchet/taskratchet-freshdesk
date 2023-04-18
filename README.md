@@ -1,5 +1,9 @@
 # taskratchet-freshdesk
 
+Custom Freshdesk apps require the Pro plan.
+
+https://www.freshworks.com/freshdesk/pricing/
+
 ## Dev
 
 ```bash
