@@ -1,0 +1,26 @@
+{
+  "name": "taskratchet-freshdesk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build && fdk pack",
+    "serve": "fdk run --skip-validation lint",
+    "validate": "fdk validate --skip-validation lint"
+  },
+  "devDependencies": {
+    "fdk": "https://cdn.freshdev.io/fdk/latest.tgz",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "vite-plugin-singlefile": "^0.13.3",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "solid-js": "^1.6.10"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
